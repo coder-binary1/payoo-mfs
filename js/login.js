@@ -36,7 +36,7 @@ document
 
     //bad way to validate
     if (phoneNumber === "01789343432" && pinNumber === "1234") {
-      window.location.href = "/home.html";
+      window.location.href = "./home.html";
     } else {
       alert("phone or pin wrong");
     }
