@@ -28,6 +28,8 @@ document
 
       // step-6: update the balance in the UI/DOM
       document.getElementById("available-balance").innerText = newBalance;
+      document.getElementById("input-pin-number").value = "";
+      document.getElementById("input-add-money").value = "";
     } else {
       alert("failed to add money!");
     }
